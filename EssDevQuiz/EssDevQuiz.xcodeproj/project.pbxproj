@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		847853002C2B07B3006640EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847852FF2C2B07B3006640EB /* AppDelegate.swift */; };
 		847853022C2B07B3006640EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853012C2B07B3006640EB /* SceneDelegate.swift */; };
-		847853042C2B07B3006640EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853032C2B07B3006640EB /* ViewController.swift */; };
-		847853072C2B07B3006640EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847853052C2B07B3006640EB /* Main.storyboard */; };
 		847853092C2B07B4006640EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847853082C2B07B4006640EB /* Assets.xcassets */; };
 		8478530C2C2B07B4006640EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8478530A2C2B07B4006640EB /* LaunchScreen.storyboard */; };
 		847853172C2B07B5006640EB /* EssDevQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853162C2B07B5006640EB /* EssDevQuizTests.swift */; };
 		847853212C2B07B5006640EB /* EssDevQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853202C2B07B5006640EB /* EssDevQuizUITests.swift */; };
 		847853232C2B07B5006640EB /* EssDevQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853222C2B07B5006640EB /* EssDevQuizUITestsLaunchTests.swift */; };
+		847853562C2F1EA4006640EB /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853552C2F1EA4006640EB /* QuestionViewControllerTest.swift */; };
+		847853582C2F2327006640EB /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853572C2F2327006640EB /* QuestionViewController.swift */; };
+		8478535A2C2F402A006640EB /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847853592C2F402A006640EB /* QuestionViewController.xib */; };
+		8478535C2C3463B9006640EB /* ResultViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478535B2C3463B9006640EB /* ResultViewControllerTest.swift */; };
+		8478535E2C346452006640EB /* ResultVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478535D2C346452006640EB /* ResultVIewController.swift */; };
+		847853602C3464AE006640EB /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8478535F2C3464AE006640EB /* ResultViewController.xib */; };
+		847853622C347178006640EB /* TableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853612C347178006640EB /* TableViewHelpers.swift */; };
+		847853642C3479AE006640EB /* CorrectAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853632C3479AE006640EB /* CorrectAnswerCell.swift */; };
+		847853662C3479C8006640EB /* CorrectAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847853652C3479C8006640EB /* CorrectAnswerCell.xib */; };
+		847853692C354F49006640EB /* WrongAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853672C354F49006640EB /* WrongAnswerCell.swift */; };
+		8478536A2C354F49006640EB /* WrongAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847853682C354F49006640EB /* WrongAnswerCell.xib */; };
+		847853732C355999006640EB /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853722C355999006640EB /* UITableViewExtension.swift */; };
+		847853762C3559C6006640EB /* PresentableAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847853752C3559C6006640EB /* PresentableAnswer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 		847852FC2C2B07B3006640EB /* EssDevQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssDevQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847852FF2C2B07B3006640EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847853012C2B07B3006640EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847853032C2B07B3006640EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847853062C2B07B3006640EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847853082C2B07B4006640EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8478530B2C2B07B4006640EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8478530D2C2B07B4006640EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		8478531C2C2B07B5006640EB /* EssDevQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssDevQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847853202C2B07B5006640EB /* EssDevQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssDevQuizUITests.swift; sourceTree = "<group>"; };
 		847853222C2B07B5006640EB /* EssDevQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssDevQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847853552C2F1EA4006640EB /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTest.swift; sourceTree = "<group>"; };
+		847853572C2F2327006640EB /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		847853592C2F402A006640EB /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		8478535B2C3463B9006640EB /* ResultViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewControllerTest.swift; sourceTree = "<group>"; };
+		8478535D2C346452006640EB /* ResultVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVIewController.swift; sourceTree = "<group>"; };
+		8478535F2C3464AE006640EB /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		847853612C347178006640EB /* TableViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelpers.swift; sourceTree = "<group>"; };
+		847853632C3479AE006640EB /* CorrectAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAnswerCell.swift; sourceTree = "<group>"; };
+		847853652C3479C8006640EB /* CorrectAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CorrectAnswerCell.xib; sourceTree = "<group>"; };
+		847853672C354F49006640EB /* WrongAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerCell.swift; sourceTree = "<group>"; };
+		847853682C354F49006640EB /* WrongAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WrongAnswerCell.xib; sourceTree = "<group>"; };
+		847853722C355999006640EB /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		847853752C3559C6006640EB /* PresentableAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableAnswer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +121,11 @@
 		847852FE2C2B07B3006640EB /* EssDevQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				847853742C3559B7006640EB /* Models */,
+				847853712C35597A006640EB /* Extensions */,
+				8478536B2C35589D006640EB /* Controllers */,
 				847852FF2C2B07B3006640EB /* AppDelegate.swift */,
 				847853012C2B07B3006640EB /* SceneDelegate.swift */,
-				847853032C2B07B3006640EB /* ViewController.swift */,
-				847853052C2B07B3006640EB /* Main.storyboard */,
 				847853082C2B07B4006640EB /* Assets.xcassets */,
 				8478530A2C2B07B4006640EB /* LaunchScreen.storyboard */,
 				8478530D2C2B07B4006640EB /* Info.plist */,
@@ -114,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				847853162C2B07B5006640EB /* EssDevQuizTests.swift */,
+				847853552C2F1EA4006640EB /* QuestionViewControllerTest.swift */,
+				8478535B2C3463B9006640EB /* ResultViewControllerTest.swift */,
+				847853612C347178006640EB /* TableViewHelpers.swift */,
 			);
 			path = EssDevQuizTests;
 			sourceTree = "<group>";
@@ -125,6 +151,69 @@
 				847853222C2B07B5006640EB /* EssDevQuizUITestsLaunchTests.swift */,
 			);
 			path = EssDevQuizUITests;
+			sourceTree = "<group>";
+		};
+		8478536B2C35589D006640EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8478536D2C3558B9006640EB /* ResultVC */,
+				8478536C2C3558A6006640EB /* QuestionVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8478536C2C3558A6006640EB /* QuestionVC */ = {
+			isa = PBXGroup;
+			children = (
+				847853572C2F2327006640EB /* QuestionViewController.swift */,
+				847853592C2F402A006640EB /* QuestionViewController.xib */,
+			);
+			path = QuestionVC;
+			sourceTree = "<group>";
+		};
+		8478536D2C3558B9006640EB /* ResultVC */ = {
+			isa = PBXGroup;
+			children = (
+				847853702C3558E1006640EB /* WrongAnswerCell */,
+				8478536F2C3558D3006640EB /* CorrectAnswerCell */,
+				8478535D2C346452006640EB /* ResultVIewController.swift */,
+				8478535F2C3464AE006640EB /* ResultViewController.xib */,
+			);
+			path = ResultVC;
+			sourceTree = "<group>";
+		};
+		8478536F2C3558D3006640EB /* CorrectAnswerCell */ = {
+			isa = PBXGroup;
+			children = (
+				847853632C3479AE006640EB /* CorrectAnswerCell.swift */,
+				847853652C3479C8006640EB /* CorrectAnswerCell.xib */,
+			);
+			path = CorrectAnswerCell;
+			sourceTree = "<group>";
+		};
+		847853702C3558E1006640EB /* WrongAnswerCell */ = {
+			isa = PBXGroup;
+			children = (
+				847853672C354F49006640EB /* WrongAnswerCell.swift */,
+				847853682C354F49006640EB /* WrongAnswerCell.xib */,
+			);
+			path = WrongAnswerCell;
+			sourceTree = "<group>";
+		};
+		847853712C35597A006640EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				847853722C355999006640EB /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		847853742C3559B7006640EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847853752C3559C6006640EB /* PresentableAnswer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8478530C2C2B07B4006640EB /* LaunchScreen.storyboard in Resources */,
+				8478536A2C354F49006640EB /* WrongAnswerCell.xib in Resources */,
 				847853092C2B07B4006640EB /* Assets.xcassets in Resources */,
-				847853072C2B07B3006640EB /* Main.storyboard in Resources */,
+				8478535A2C2F402A006640EB /* QuestionViewController.xib in Resources */,
+				847853662C3479C8006640EB /* CorrectAnswerCell.xib in Resources */,
+				847853602C3464AE006640EB /* ResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847853042C2B07B3006640EB /* ViewController.swift in Sources */,
 				847853002C2B07B3006640EB /* AppDelegate.swift in Sources */,
+				847853582C2F2327006640EB /* QuestionViewController.swift in Sources */,
+				847853642C3479AE006640EB /* CorrectAnswerCell.swift in Sources */,
+				847853692C354F49006640EB /* WrongAnswerCell.swift in Sources */,
 				847853022C2B07B3006640EB /* SceneDelegate.swift in Sources */,
+				847853732C355999006640EB /* UITableViewExtension.swift in Sources */,
+				8478535E2C346452006640EB /* ResultVIewController.swift in Sources */,
+				847853762C3559C6006640EB /* PresentableAnswer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8478535C2C3463B9006640EB /* ResultViewControllerTest.swift in Sources */,
+				847853562C2F1EA4006640EB /* QuestionViewControllerTest.swift in Sources */,
 				847853172C2B07B5006640EB /* EssDevQuizTests.swift in Sources */,
+				847853622C347178006640EB /* TableViewHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		847853052C2B07B3006640EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847853062C2B07B3006640EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8478530A2C2B07B4006640EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +539,6 @@
 				INFOPLIST_FILE = EssDevQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +569,6 @@
 				INFOPLIST_FILE = EssDevQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
