@@ -3,39 +3,54 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CorrectAnswerCell" id="Je7-vL-g7q" customClass="CorrectAnswerCell" customModule="EssDevQuiz" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CorrectAnswerCell" rowHeight="91" id="Je7-vL-g7q" customClass="CorrectAnswerCell" customModule="EssDevQuiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="91"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Je7-vL-g7q" id="kFF-ah-ad2">
-                <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
+                <rect key="frame" x="0.0" y="0.0" width="393" height="91"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0Y-Tj-a9Z">
-                        <rect key="frame" x="20" y="47" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVB-TT-0GG">
-                        <rect key="frame" x="20" y="12" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="tYp-aN-6hq">
+                        <rect key="frame" x="16" y="16" width="361" height="59"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVB-TT-0GG">
+                                <rect key="frame" x="0.0" y="0.0" width="361" height="24.666666666666668"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0Y-Tj-a9Z">
+                                <rect key="frame" x="0.0" y="38.666666666666664" width="361" height="20.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tYp-aN-6hq" secondAttribute="bottom" constant="16" id="DYg-nb-bJH"/>
+                    <constraint firstItem="tYp-aN-6hq" firstAttribute="top" secondItem="kFF-ah-ad2" secondAttribute="top" constant="16" id="JdF-q7-94v"/>
+                    <constraint firstAttribute="trailing" secondItem="tYp-aN-6hq" secondAttribute="trailing" constant="16" id="NN8-dd-2Fo"/>
+                    <constraint firstItem="tYp-aN-6hq" firstAttribute="leading" secondItem="kFF-ah-ad2" secondAttribute="leading" constant="16" id="idf-PN-PFJ"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="answerLabel" destination="d0Y-Tj-a9Z" id="3sC-cE-RG3"/>
                 <outlet property="questionLabel" destination="OVB-TT-0GG" id="gNB-9H-o2J"/>
             </connections>
-            <point key="canvasLocation" x="438.93129770992363" y="-157.04225352112678"/>
+            <point key="canvasLocation" x="438.93129770992363" y="-155.98591549295776"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
